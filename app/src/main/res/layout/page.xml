@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        >
+
+
+
+        <!--这个是滚动视图，字多了可以上下滚动-->
+
+
+
+        <TextView
+            android:id="@+id/time_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_page"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_below="@id/time_page"
+            android:textColor="#000000"
+            android:paddingTop="12dp"/>
+
+        <TextView
+            android:id="@+id/writer_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/writer_page"
+            android:layout_below="@id/title"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/page_main0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main0"
+            android:layout_below="@id/writer_page"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"/>
+
+        <TextView
+            android:id="@+id/page_main1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main1"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"
+            android:layout_below="@id/page_main0"
+             />
+
+        <TextView
+            android:id="@+id/page_main2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main2"
+            android:layout_below="@id/page_main1"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"/>
+
+        <TextView
+            android:id="@+id/page_main3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main3"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"
+            android:layout_below="@id/page_main2"
+             />
+
+        <TextView
+            android:id="@+id/page_main4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main4"
+            android:layout_below="@id/page_main3"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"/>
+
+
+        <TextView
+            android:id="@+id/page_main5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main5"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"
+            android:layout_below="@id/page_main4"
+             />
+
+        <TextView
+            android:id="@+id/page_main6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_main6"
+            android:layout_below="@id/page_main5"
+            android:paddingTop="12dp"
+            android:textColor="#5c5656"/>
+
+
+    <TextView
+        android:id="@+id/page_main7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_main7"
+        android:layout_below="@id/page_main6"
+        android:paddingTop="12dp"
+        android:textColor="#5c5656"/>
+
+
+    <TextView
+        android:id="@+id/page_main8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_main8"
+        android:layout_below="@id/page_main7"
+        android:paddingTop="12dp"
+        android:textColor="#5c5656"/>
+
+
+    <TextView
+        android:id="@+id/page_main9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_main9"
+        android:layout_below="@id/page_main8"
+        android:paddingTop="12dp"
+        android:textColor="#5c5656"/>
+
+
+    <TextView
+        android:id="@+id/page_main10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_main10"
+        android:layout_below="@id/page_main9"
+        android:paddingTop="12dp"
+        android:textColor="#5c5656"/>
+
+
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/line"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#898181"-->
+            <!--android:layout_below="@id/page_main6"-->
+            <!--android:paddingTop="18dp"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/introduce0"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/introduce0"-->
+            <!--android:layout_below="@id/line"-->
+            <!--android:paddingTop="15dp"-->
+            <!--/>-->
+
+
+
+
+    </RelativeLayout>
+

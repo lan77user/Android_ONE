@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sqsf.one_finished.MainActivity">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/topframe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#d2d2d2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_title"
+        android:paddingLeft="115dp"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more"
+        android:paddingTop="15dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_btn_style"
+            android:layout_weight="1"
+            android:button = "@null"
+            android:checked="true"
+
+            />
+
+        <RadioButton
+            android:id="@+id/page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/page_btn_style"
+            android:layout_weight="1"
+            android:button = "@null"
+
+            />
+
+
+        <RadioButton
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/question_btn_style"
+            android:layout_weight="1"
+            android:button = "@null"
+            />
+
+
+        <RadioButton
+            android:id="@+id/stow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stow_btn_style"
+            android:layout_weight="1"
+            android:button = "@null"
+            />
+
+
+        <RadioButton
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/detail_btn_style"
+            android:layout_weight="1"
+            android:button = "@null"
+            />
+
+
+    </RadioGroup>
+
+
+    <ScrollView
+        android:id="@+id/main_scorllview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topframe"
+        android:layout_above="@id/radio"
+        >
+    </ScrollView>
+</RelativeLayout>

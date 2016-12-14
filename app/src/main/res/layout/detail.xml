@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:id="@+id/line1_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#837f7f"
+        />
+
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_default_icon"
+        android:layout_below="@id/line1_detail"
+        android:paddingTop="8dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即登录"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/user_icon"
+        android:paddingTop="16dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/line1_detail"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one_details_page_arrowhead"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/line1_detail"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/line2_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#837f7f"
+        android:layout_below="@id/user_icon"
+        android:layout_marginTop="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting"
+        android:layout_below="@id/line2_detail"
+        android:paddingTop="8dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/setting"
+        android:paddingTop="16dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/line2_detail"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one_details_page_arrowhead"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/line2_detail"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/line3_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#837f7f"
+        android:layout_below="@id/setting"
+        android:layout_marginTop="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one_details_page_copyright"
+        android:layout_below="@id/line3_detail"
+        android:paddingTop="8dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/copy"
+        android:paddingTop="16dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/line3_detail"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one_details_page_arrowhead"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/line3_detail"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/line4_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#837f7f"
+        android:layout_below="@id/copy"
+        android:layout_marginTop="8dp"/>
+
+
+    <TextView
+        android:id="@+id/tuijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推荐应用"
+        android:textSize="20dp"
+        android:paddingTop="12dp"
+        android:layout_below="@id/line4_detail"/>
+
+
+    <ImageView
+        android:id="@+id/line5_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b3b0b0"
+        android:layout_below="@id/tuijian"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageView
+        android:id="@+id/icon_one"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/one"
+        android:layout_below="@id/line5_detail"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/title_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一个————属于你自己的应用"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/icon_one"
+        android:layout_below="@id/line5_detail"
+        android:paddingLeft="8dp"
+        android:paddingTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="特别好的一个应用，大家都赶紧来使用啊，这是我自己开发的软件"
+        android:layout_below="@id/title_detail"
+        android:layout_toRightOf="@id/icon_one"
+        android:paddingLeft="8dp"
+        android:paddingRight="20dp"
+        android:textColor="#414040"/>
+
+
+
+    <ImageView
+        android:id="@+id/main_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/one_details_page_arrowhead"
+        android:paddingTop="30dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/line5_detail"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/line6_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b3b0b0"
+        android:layout_below="@id/icon_one"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
